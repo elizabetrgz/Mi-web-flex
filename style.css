@@ -1,0 +1,89 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background-color: #142A60;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    background: #4F0606;
+    flex: 1 1 auto;
+}
+
+.nav {
+    background: #4F0606;
+    flex: 5 1 auto;
+}
+
+.social {
+    background: #4F0606;
+    flex: 1 1 auto;
+}
+
+.text-principal {
+    background: #861919;
+}
+
+h1 {
+    background: #DF4C4C;
+}
+
+.section {
+    background: #000;
+    display: flex;
+}
+
+.articles {
+    background: #3D0C5E;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    background: #861919;
+    flex: 1 1 40%;
+}
+
+.navegation {
+    background: #68338C;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background: #4F0606;
+    flex: 1 1 auto;
+}
+
+.advertising {
+    background: #142A60;
+}
+
+.footer {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.pie {
+    background: #4F0606;
+    width: 300px;
+}
