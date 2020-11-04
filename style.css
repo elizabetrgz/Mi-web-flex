@@ -251,9 +251,11 @@
         h2 {
             font-size: 20px;
         }
-        .nav a {
-            font-size: 8px;
-            letter-spacing: 1px;
+        span {
+            display: none;
+        }
+        .social a {
+            font-size: 13px;
         }
     }
     
